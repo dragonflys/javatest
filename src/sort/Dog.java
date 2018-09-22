@@ -1,6 +1,6 @@
 package sort;
 
-public class Dog implements IDao {
+public class Dog implements Ianimal {
 	public String name = "阿黄";
 
 	@Override

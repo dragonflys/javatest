@@ -1,6 +1,6 @@
 package sort;
 
-public interface IDao {
+public interface Ianimal {
 	public String getName();
 
 }

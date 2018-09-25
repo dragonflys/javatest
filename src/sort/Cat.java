@@ -18,8 +18,8 @@ public class Cat extends Animal implements Ianimal{
 		System.out.println(cat1.name);			//毛毛
 		System.out.println(cat1.getName());		//猫
 		System.out.println("&&&&&&&&&&&&");
-		Animal ss = new Cat();					//多态 1.继承 2.重写 3.父类应用指向子类对象
-		System.out.println(ss.name);			//动物
+		Animal ss = new Cat();					//只有method具有多态特性  1.继承 2.重写 3.父类引用指向子类对象
+		System.out.println(ss.name);			//动物  field不存在多态
 		System.out.println(ss.getName());		//猫
 		System.out.println("************");
 		Cat ss1 = (Cat) ss;						//强制向下转型（前提是该对象本来就是子类型才可以向下转型）

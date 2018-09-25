@@ -1,4 +1,4 @@
-package sort;
+package polymorphism;
 
 public class Dog implements Ianimal {
 	public String name = "阿黄";

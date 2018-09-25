@@ -1,4 +1,4 @@
-package sort;
+package polymorphism;
 
 public class Animal {
 	public String name = "动物";
